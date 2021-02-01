@@ -1,1 +1,2 @@
-print("This is my first python project!")
+name = input("What is your name? ")
+print("Hello, " + name)
