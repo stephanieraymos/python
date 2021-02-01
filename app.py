@@ -5,7 +5,6 @@
 # print(10 ** 3) Exponent operator; 10 to the power of 3
 
 
-
 # x = 10 
 
 # x = x + 3 is the same as x += 3
@@ -13,3 +12,8 @@
 # x = 10 + 3 * 2 = 16 (Operator precedence. Multiplication + division gets precedence)
 
 # x = (10 + 3) * 2 = 26
+
+
+
+price = 25
+print(price > 10 and price < 30)
