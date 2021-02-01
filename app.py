@@ -12,5 +12,5 @@ str() #Convert to string
 
 num1 = input("Pick a number: ")
 num2 = input("Pick another number: ")
-sum = int(num1) + int(num2)
+sum = float(num1) + float(num2)
 print(sum)
