@@ -9,3 +9,7 @@
 # x = 10 
 
 # x = x + 3 is the same as x += 3
+
+# x = 10 + 3 * 2 = 16 (Operator precedence. Multiplication + division gets precedence)
+
+# x = (10 + 3) * 2 = 26
