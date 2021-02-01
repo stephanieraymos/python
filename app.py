@@ -10,7 +10,7 @@ float() #Convert to floating integer (10.1)
 bool() #Convert to boolean
 str() #Convert to string
 
-num1 = input("Pick a number: ")
-num2 = input("Pick another number: ")
-sum = float(num1) + float(num2)
+num1 = float(input("Pick a number: "))
+num2 = float(input("Pick another number: "))
+sum = num1 + num2
 print("sum is: " + str(sum))
