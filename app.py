@@ -28,9 +28,10 @@
 # or (at least one)
 # not (opposite)
 
-tempurature = 35
+tempurature = 25
 
 if tempurature > 30 : 
     print("It's a hot day!")
     print("Drink some water to stay hydrated!")
-    
+
+print("Done")
