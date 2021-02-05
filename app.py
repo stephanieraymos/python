@@ -28,12 +28,16 @@
 # or (at least one)
 # not (opposite)
 
-tempurature = 25
+tempurature = 10
 
 if tempurature > 30 : 
     print("It's a hot day!")
     print("Drink some water to stay hydrated!")
 elif tempurature > 20: # (20-30)
     print("It's a nice day.")
+elif tempurature > 10: 
+    print("It's a bit chilly.")
+elif tempurature <= 10:
+    print("It's FREEZING outside. It would be best to stay in today.")
 
 print("Done")
