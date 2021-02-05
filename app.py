@@ -32,3 +32,5 @@ tempurature = 35
 
 if tempurature > 30 : 
     print("It's a hot day!")
+    print("Drink some water to stay hydrated!")
+    
