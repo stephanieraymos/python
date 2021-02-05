@@ -28,16 +28,20 @@
 # or (at least one)
 # not (opposite)
 
-tempurature = 10
+# tempurature = 10
 
-if tempurature > 30 : 
-    print("It's a hot day!")
-    print("Drink some water to stay hydrated!")
-elif tempurature > 20: # (20-30)
-    print("It's a nice day.")
-elif tempurature > 10: #(10-20)
-    print("It's a bit chilly.")
-else:
-    print("It's FREEZING outside. It would be best to stay in today.")
+# if tempurature > 30 : 
+#     print("It's a hot day!")
+#     print("Drink some water to stay hydrated!")
+# elif tempurature > 20: # (20-30)
+#     print("It's a nice day.")
+# elif tempurature > 10: #(10-20)
+#     print("It's a bit chilly.")
+# else:
+#     print("It's FREEZING outside. It would be best to stay in today.")
 
-print("Done")
+# print("Done")
+
+weight = input("Weight: ")
+unit = input("(K)g or (L)bs: ")
+
