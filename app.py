@@ -27,3 +27,8 @@
 # and (both)
 # or (at least one)
 # not (opposite)
+
+tempurature = 35
+
+if tempurature > 30 : 
+    print("It's a hot day!")
