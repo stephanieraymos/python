@@ -33,5 +33,7 @@ tempurature = 25
 if tempurature > 30 : 
     print("It's a hot day!")
     print("Drink some water to stay hydrated!")
+elif tempurature > 20: # (20-30)
+    print("It's a nice day.")
 
 print("Done")
