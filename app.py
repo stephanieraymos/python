@@ -84,5 +84,6 @@
 #     print (number)
 
 # TUPLES : IMMUTABLE; CANNOT CHANGE
-numbers = (1,2,3,3)
-numbers.count(3)
+# numbers = (1,2,3,3)
+# print(numbers.count(3))
+
