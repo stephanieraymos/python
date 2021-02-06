@@ -63,4 +63,5 @@
 #LISTS
 
 names = ["John", "Bob", "Sam", "Audie"]
-print(names[-1])
+names[0] = "Jon"
+print(names)
