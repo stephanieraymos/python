@@ -53,7 +53,7 @@
 #     print("Weight in Kgs: " + str(converted))
 
 
-# While loops
+# WHILE LOOPS
 
 # i = 1 # initial number
 # while i <= 10 : 
@@ -64,4 +64,4 @@
 
 names = ["John", "Bob", "Sam", "Audie"]
 names[0] = "Jon"
-print(names)
+print(names[0:3]) #From 0 to 3 only
