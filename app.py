@@ -68,11 +68,17 @@
 
 # numbers = [1,2,3,4,5]
 # # INSERT: First parameter is index position for insertion, second parameter is value to be inserted
-# print(len(numbers)) Number of elements in the list
+# print(len(numbers)) Number of elements in the list len stands for length
 
 # FOR LOOPS
 
-numbers = [1,2,3,4,5]
-for item in numbers : #On first iteration; i = 1, second 1 = 2 ect
-    print(item)
+# numbers = [1,2,3,4,5]
+# for item in numbers : #On first iteration; i = 1, second 1 = 2 ect. With each iteration; the item variable automatically holds one value from this list
+#     print(item)
 
+# RANGE FUNCTION
+
+numbers = range(5) #0-5 but excluding 5
+
+for number in numbers : 
+    print (number)
