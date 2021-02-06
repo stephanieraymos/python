@@ -55,7 +55,12 @@
 
 # While loops
 
-i = 1 # initial number
-while i <= 10 : 
-    print(i * '*')
-    i = i + 1
+# i = 1 # initial number
+# while i <= 10 : 
+#     print(i * '*')
+#     i = i + 1
+
+#LISTS
+
+names = ["John", "Bob", "Sam", "Audie"]
+print(names)
