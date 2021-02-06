@@ -60,8 +60,14 @@
 #     print(i * '*')
 #     i = i + 1
 
-#LISTS
+# LISTS
 
-names = ["John", "Bob", "Sam", "Audie"]
-names[0] = "Jon"
-print(names[0:3]) #From 0 to 3 only
+# names = ["John", "Bob", "Sam", "Audie"]
+# names[0] = "Jon"
+# print(names[0:3]) #From 0 to 3 only : Does not modify original list
+
+# OBJECTS
+
+numbers = [1,2,3,4,5]
+numbers.append(6)
+print(numbers)
