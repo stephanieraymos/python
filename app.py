@@ -70,4 +70,4 @@
 
 numbers = [1,2,3,4,5]
 # INSERT: First parameter is index position for insertion, second parameter is value to be inserted
-print(1 in numbers)
+print(len(numbers))
