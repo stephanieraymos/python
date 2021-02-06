@@ -66,8 +66,13 @@
 # names[0] = "Jon"
 # print(names[0:3]) #From 0 to 3 only : Does not modify original list
 
-# OBJECTS
+# numbers = [1,2,3,4,5]
+# # INSERT: First parameter is index position for insertion, second parameter is value to be inserted
+# print(len(numbers)) Number of elements in the list
+
+# FOR LOOPS
 
 numbers = [1,2,3,4,5]
-# INSERT: First parameter is index position for insertion, second parameter is value to be inserted
-print(len(numbers))
+for item in numbers : #On first iteration; i = 1, second 1 = 2 ect
+    print(item)
+
