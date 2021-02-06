@@ -80,5 +80,9 @@
 
 # numbers = range(5, 10, 2) #First param is starting point, second is ending point, last is step (In this case it will print in increments of 2)
 
-for number in range(5) : 
-    print (number)
+# for number in numbers(5) : 
+#     print (number)
+
+# TUPLES : IMMUTABLE; CANNOT CHANGE
+numbers = (1,2,3,3)
+numbers.count(3)
