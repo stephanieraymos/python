@@ -78,7 +78,7 @@
 
 # RANGE FUNCTION
 
-numbers = range(5) #0-5 but excluding 5
+numbers = range(5, 10, 2) #First param is starting point, second is ending point, last is step (In this case it will print in increments of 2)
 
 for number in numbers : 
     print (number)
