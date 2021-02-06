@@ -69,6 +69,6 @@
 # OBJECTS
 
 numbers = [1,2,3,4,5]
-numbers.remove(3) 
+numbers.clear() 
 # INSERT: First parameter is index position for insertion, second parameter is value to be inserted
 print(numbers)
